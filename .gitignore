@@ -1,0 +1,12 @@
+# Mex result files
+*.mexw64
+*.mexa64
+
+
+# Matlab variables
+*.mat
+
+
+# backup files
+*~
+*.gif
