@@ -2,15 +2,12 @@
 This package provides a Matlab implementation of BMVC 2017 paper: "Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities" for the purpose of research and study only.
 
 <a href="https://www.youtube.com/embed/sC3iiaxBhdw" target="_blank"><img src="http://img.youtube.com/vi/sC3iiaxBhdw/0.jpg" 
-alt="OPVO" width="320" height="180" border="0" /></a>
-<a href="https://www.youtube.com/embed/sC3iiaxBhdw" target="_blank"><img src="http://img.youtube.com/vi/sC3iiaxBhdw/1.jpg" 
-alt="OPVO" width="320" height="180" border="0" /></a>
-<a href="https://www.youtube.com/embed/sC3iiaxBhdw" target="_blank"><img src="http://img.youtube.com/vi/sC3iiaxBhdw/2.jpg" 
-alt="OPVO" width="320" height="180" border="0" /></a>
+alt="OPVO" width="240" height="180" border="10" /></a>
 
 
 # 1. License
 The package is licenced under the MIT License, see http://opensource.org/licenses/MIT.
+
 if you use OPVO in an academic work, please cite:
 
     @inproceedings{kim2017visual,
