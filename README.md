@@ -1,5 +1,5 @@
 # Orthogonal Plane-based Visual Odometry (OPVO)
-This package provides a Matlab implementation of BMVC 2017 paper: "Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities" for the purpose of research and study only.
+This package provides a MATLAB implementation of BMVC 2017 paper: "Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities" for the purpose of research and study only.
 
 <a href="https://www.youtube.com/embed/sC3iiaxBhdw" target="_blank"><img src="http://img.youtube.com/vi/sC3iiaxBhdw/0.jpg" 
 alt="OPVO" width="240" height="180" border="10" /></a>
@@ -43,4 +43,4 @@ The approach is descirbed and used in the following publications:
 
 * **Low-Drift Visual Odometry in Structured Environments by Decoupling Rotational and Translational Motion** (Pyojin Kim, Brian Coltin, and H. Jin Kim), ICRA 2018.
 
-You can find more related papers at http://pyojinkim.me/_pages/pub/index.html.
+You can find more related papers at http://pyojinkim.com/_pages/pub/index.html.
