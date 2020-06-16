@@ -37,7 +37,6 @@ cam = initialize_cam_TUM_RGBD(ICLNUIMdataset, optsMWO.imagePyramidLevel);
 
 %% load ground truth data
 
-
 % ground truth trajectory in ICL NUIM dataset
 R_gc_true = zeros(3,3,M);
 p_gc_true = zeros(3,M);
@@ -78,7 +77,6 @@ end
 
 
 %% main OPVO part
-
 
 % 1. feature tracking pre-defined variables for DEMO
 systemInited_ft = false;
@@ -525,7 +523,6 @@ end
 
 
 %% plot error metric value (RPE, ATE)
-
 
 % 1) OPVO motion estimation trajectory results
 figure;
