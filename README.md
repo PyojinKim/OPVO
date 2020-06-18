@@ -2,20 +2,15 @@
 This package provides a MATLAB implementation of BMVC 2017 paper: "Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities" for the purpose of research and study only.
 Note that this repository only includes simplified proposed visual odometry example codes to understand how the OPVO works in structured environments.
 
-![OPVO](https://github.com/PyojinKim/OPVO/blob/master/teaser.png)
+![OPVO](https://github.com/PyojinKim/OPVO/blob/master/overview.png)
 
 
-# 1. License
-The package is licensed under the MIT License, see http://opensource.org/licenses/MIT.
+# 1. Goal
+Our goal is to estimate 6-DoF camera motion with respect to the indoor structured environments.
+For reducing drift of the rotation estimate, which is the main source of position inaccuracy in visual odometry, the Manhattan frame tracking is performed to estimate the absolute camera orientation.
+Given drift-free rotation estimates in Manhattan World, translational motion is estimated by minimizing de-rotated reprojection with the tracked features.
 
-if you use OPVO in an academic work, please cite:
-
-    @inproceedings{kim2017visual,
-      author = {Kim, Pyojin and Coltin, Brian and Kim, H Jin},
-      title = {Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities},
-      year = {2017},
-      booktitle = {British Machine Vision Conference (BMVC)},
-     }
+![OPVO](https://github.com/PyojinKim/OPVO/blob/master/result.png)
 
 
 # 2. Prerequisites
@@ -44,3 +39,17 @@ The approach is described and used in the following publications:
 * **Low-Drift Visual Odometry in Structured Environments by Decoupling Rotational and Translational Motion** (Pyojin Kim, Brian Coltin, and H. Jin Kim), ICRA 2018.
 
 You can find more related papers at http://pyojinkim.com/_pages/pub/index.html.
+
+
+# 5. License
+The package is licensed under the MIT License, see http://opensource.org/licenses/MIT.
+
+if you use OPVO in an academic work, please cite:
+
+    @inproceedings{kim2017visual,
+      author = {Kim, Pyojin and Coltin, Brian and Kim, H Jin},
+      title = {Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities},
+      year = {2017},
+      booktitle = {British Machine Vision Conference (BMVC)},
+     }
+
